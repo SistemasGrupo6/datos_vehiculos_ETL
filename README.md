@@ -3,6 +3,20 @@
 Sistema completo de extracción, transformación y carga (ETL) para analizar los datos oficiales de vehículos nuevos registrados en Ecuador durante 2024, proporcionados por el Servicio de Rentas Internas (SRI). Incluye análisis exploratorio, visualizaciones interactivas y modelado predictivo básico.
 
 ## 🔧 Configuración del Entorno
+1. Configuración del Entorno e Importación de Librerías
+En esta sección se realiza la instalación y carga de las librerías necesarias para el análisis de datos, visualización, manejo de archivos y conexión con Google Drive o Google Sheets. Las bibliotecas utilizadas incluyen:
+
+pandas, numpy: para el análisis y transformación de datos.
+
+matplotlib, seaborn, plotly: para la visualización de los datos.
+
+scikit-learn: para tareas de modelado y preprocesamiento.
+
+gspread, oauth2client: para conectar y manejar hojas de cálculo en Google Sheets.
+
+openpyxl: para manejar archivos Excel.
+
+Además, se configura el entorno para ignorar advertencias y se ajustan los parámetros visuales de los gráficos.
 
 Instalación automática de todas las librerías necesarias y configuración del entorno de trabajo en Google Colab.
 
